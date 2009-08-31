@@ -19,7 +19,7 @@ fi
 
 # The following command installs gem dependencies specified in a Ruby on Rails
 # environment.rb file
-rake gems:install
+#rake gems:install
 
 # If your project is not a Rails project or if you don't use Rails gem
 # dependencies, you may want to comment out the line above and uncomment the
@@ -27,5 +27,5 @@ rake gems:install
 # geminstaller.yml or config/geminstaller.yml.  See http://geminstaller.org for
 # more about the geminstaller file format.
 #
-# geminstaller
+geminstaller
 
