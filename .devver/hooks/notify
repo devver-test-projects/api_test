@@ -1,9 +1,5 @@
 #!/usr/bin/env ruby
 
-# require 'logger'
-# logger = Logger.new('api_notify.log')
-# logger.info('Notify!')
-
 ################################################################################
 # notify
 #
@@ -51,4 +47,3 @@ EOF
 Net::SMTP.start('localhost', 25) do |smtp|
   smtp.send_message(message, 'application@devver.net', recipient)
 end
-
